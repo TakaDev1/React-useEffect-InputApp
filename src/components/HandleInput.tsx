@@ -12,7 +12,7 @@ const HandleInput = () => {
   };
   return (
     <div>
-      <input type="text" value={input} onChange={handleInput} />
+      <input type="text" value={input} onChange={handleInput} className="border" />
     </div>
   );
 };
